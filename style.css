@@ -1,0 +1,451 @@
+:root{
+    --color1:rgba(52, 84, 122, 1);
+    --color2:rgba(238, 239, 241, 1);
+    --color3:rgba(196, 196, 196, 1);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: 'Revalia';
+    src: url(fonts/Revalia-Regular.ttf);
+}
+html {
+    width: 1920px;
+    box-sizing: border-box;
+ }
+
+ h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+ }
+ h1{
+    color: #000;
+
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 164.063%; /* 78.75px */
+ }
+ p{
+    color: #727272;
+
+/* p */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 164.063%; /* 26.25px */
+ }
+
+ h2{
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+body{
+    margin: 0 auto;
+    font-family: 'Roboto';
+
+}
+.container{
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 1920px;
+
+}
+.menu {
+    background-color:var(--color2);
+    
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    padding-left: 407px;
+    padding-right: 413px;
+   
+}
+.logo {
+    display: flex;
+    width: 96px;
+    height: 60px;
+    flex-shrink: 0;
+    margin: 0;
+    color: #34547A;
+    font-family: 'Revalia';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+
+}
+.menu_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin: 0 auto;
+    padding-top: 19px;
+    padding-left: 393px;
+    padding-right: 413px;
+    padding-bottom: 81px;
+    
+    
+}
+.menu_flex li{
+    padding-bottom: 0;
+    padding-right: 42px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%; /* 26.25px */
+    letter-spacing: 1.6px;
+    white-space: nowrap;
+}
+
+.spisok1{
+    font-family: 'Roboto';
+    display: flex;
+    list-style: none;
+    color: var(--Accent, #34547A);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 164.063%; /* 26.25px */
+    letter-spacing: 1.6px;
+    padding-right: 413px;
+    margin: 0;
+    padding: 0;
+}
+.spisok1 li:hover{
+    
+    color:var(--color1);
+    
+  }
+.design_verstka {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding-left: 487px;
+    padding-right: 405px;
+}
+.logo2 {
+    padding-bottom: 65px;
+    padding-top:80px;
+    margin: 0;
+    width: 357px;
+    height: 233.7px;
+    flex-shrink: 0;
+}
+.design_text {
+    padding-top: 48px;
+    padding-left: 131px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-bottom: 146px;
+    
+}
+.lo{
+    padding: 60px 0;
+    padding-top: 34px;
+    padding-bottom: 52px;
+    
+}
+.btn1 {
+    width: 225px;
+    height: 65px;
+    flex-shrink: 0;
+    background-color: var(--color1);
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 164.063%; /* 26.25px */
+    letter-spacing: 1.6px;
+
+    }
+
+    .about_me {
+        text-align: center;
+        padding-top: 119px;
+        padding-bottom: 92px;
+    }
+    .h2 {
+    }
+    .about_text {
+        padding-bottom: 38px;
+    }
+    .about_lorem {
+    }
+
+    .projects{
+        background-color: var(--color1);
+        height: 250px;
+        
+    }
+    
+    .projects_list {
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        padding-bottom: 100px;
+        padding-top: 100px;
+        padding-left: 27px;
+    }
+    .item_project{
+        width: 50px;
+        height: 50px;
+        padding-right: 20px;
+    }
+    .item {
+        display: flex;
+
+    }
+    .projects_p {
+
+        color: #FFF;
+        padding-right: 49px;
+    }
+
+    .skills {
+        height: 653px;
+    }
+    .my_skills {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding-top: 102px;
+        padding-left: 15px;
+    }
+    .skills_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        padding-right: 132px;
+    }
+    .line {
+         margin: 0 auto;
+        border: 1px solid var(--color3);
+        background-color: var(--color3);
+        width: 445px; 
+        
+    }
+
+    .shortline{
+        border: 1px solid var(--color1);
+        width: 350px;
+    }
+    .skills_photo {
+        width: 555px;
+    height: 450px;
+    flex-shrink: 0;
+    }
+    .mn{
+        margin-top: 43px;
+     }
+     .adobe{
+        padding-bottom: 24px;
+        padding-top: 30px;
+     }
+
+     .how_it_works {
+        height: 1004px;
+        background-color: var(--color2);
+    }
+    .works {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+        padding-left: 15px;
+    }
+    .works_text {
+        padding-right: 17px;
+    }
+   
+    .h2_works {
+        text-align: center;
+        padding-bottom: 39px;
+    }
+    .p_works {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .works_video{
+        width: 1110px;
+        height: 600px;
+        flex-shrink: 0;
+        padding-right: 15px;
+    }
+    .grids {
+        height: 960px;
+    }
+    .all_grids {
+        margin-top: 28px;
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
+        background-color: var(--color1);
+        max-width: 1920px;
+
+    }
+    .grid_item {
+        width: 480px;
+        height: 480px;
+        position: relative;
+  
+    }
+    .grid2{
+
+    }
+    .grid_item:hover{
+        opacity: 0.5;
+        background-image: url(img/eye.png);
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .microsoft {
+    }
+    .micro_flex {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 96px;
+        padding-top: 72px;
+        padding-left: 28px;
+    }
+    .item {
+        
+    }
+    
+    .micro2{
+        padding-right: 30px;
+        width: 255px;
+        height: 120px;
+    }
+
+    .want_web {
+        height: 762px;
+        background-color: var(--color2);
+    }
+    .want_web_text {
+        display: block;
+        text-align: center;
+    }
+    .h2_web {
+        padding-top: 100px;
+        padding-bottom: 39px;
+    }
+    .p_web{
+        padding-bottom: 45px;
+    }
+    .form_web {
+
+    }
+    .input_name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 9px;
+    }
+    input[type=text] {
+        width: 255px;
+        height: 50px;
+        background-color: white;
+        border: none;
+        margin: 10px;
+        font-size: 16px;
+    }
+    .textarea_web{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+        text-align: center;
+        }
+        textarea {
+            height: 150px;
+            background-color: white;
+            border: none;
+            font-size: 16px;
+        }
+        .textarea_web textarea{
+            width: 540px;
+            height: 175px;
+            padding: 0;
+        }
+    .btn_web {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+    .btn5 {
+        width: 190px;
+        height: 55px;
+    }
+    
+    .last {
+        background-color: var(--color1);
+    }
+    .footer_menu {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+       
+    }
+    .total_logo{
+        display: flex;
+        padding-right: 389px;
+
+    }
+    .p_footer{
+        color: #FFF;
+        font-family: 'Roboto';
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 164.063%;
+    }
+    .footer_text {
+        color: white;
+        padding-left: 357px;
+    }
+    .footer_h4{
+        color: #FFF;
+        font-family: 'Roboto';
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .total_logo{
+
+    }
+    .footer_logo {
+        padding: 10px;
+            }
+    
+
+
+    
+    
+    
+    
