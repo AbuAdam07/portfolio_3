@@ -398,6 +398,7 @@ body{
         padding-bottom: 100px;
     }
     .btn5 {
+        cursor: pointer;
         width: 190px;
         height: 55px;
     }
@@ -442,6 +443,105 @@ body{
     .footer_logo {
         padding: 10px;
             }
+
+    .btn1{
+        cursor: pointer;
+    }
+
+    @media screen and (max-width:1024px){
+        body{
+            box-sizing: border-box;
+            max-width: 1024px;
+            padding: 0;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+          }
+        .header_menu{
+            padding: 0;
+            flex-direction: column;
+        }
+               .design_verstka{
+            padding: 0;
+            justify-content: flex-start
+        }
+        .menu_flex{
+            padding: 10px;
+            margin: 0;
+        }
+        .design_text{
+            padding: 0;
+        }
+        .lo{
+            width: 500px;
+           
+        }
+        .about_me{
+            padding-top: 20px;
+        text-align: start;}
+        .projects_list{
+            
+            padding-left: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+
+        }
+        .my_skills{
+            flex-direction: column;
+            width: 1024px;
+        }
+        .skills_text{
+            padding-right: 0;
+        }
+        .works{
+            padding-left: 0;
+            align-items: flex-start;
+        }
+        .my_skills, .projects_list, .grids, .skills, .about_me, .menu, .projects, .how_it_works, .works_video iframe, .microsoft, .want_web, .last{
+            max-width: 1024px;
+        }
+        .works_text{
+            width: 1024px;
+        }
+        .how_it_works{
+            margin-top: 130px;
+        }
+        .grids{
+            height: 100%;
+        }
+        .all_grids {
+            grid-template-columns: 2fr 2fr ;
+            max-width: 1024px;
+          }
+          
+          .grid-item {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0;
+          }
+          .micro_flex{
+            display: grid;
+            grid-template-columns: 3fr 3fr;
+
+          }
+          .last{
+            justify-content: center;
+            align-items: center;
+          }
+          .total_logo{
+            padding: 0;
+          }
+          .works_text{
+            padding-right: 0;
+          }
+    }
+
+    @media screen and (max-width:720px){
+        .my_skills, .projects_list, .grids, .skills, .about_me, .menu, .projects, .how_it_works, .works_video iframe, .microsoft, .want_web, .last{
+            max-width: 720px;
+        }
+    }
     
 
 
